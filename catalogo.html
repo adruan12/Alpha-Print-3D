@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang='pt-br'><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width,initial-scale=1'>
+<title>Alpha Print - Catálogo</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel='stylesheet' href='css/style.css'></head><body>
+<header><img src='img/logo.png'><nav><a href='index.html'>Início</a><a href='catalogo.html'>Catálogo</a><a href='orcamento.html'>Orçamento</a><a href='contato.html'>Contato</a></nav></header>
+
+<div class='container'>
+<h1 class='section-title'>Catálogo</h1>
+<div class='catalogo-layout'>
+<aside class='filtros'>
+<h3>Pesquisar</h3>
+<input type='text' id='pesquisa' placeholder='Buscar produto...'>
+<h3>Categoria</h3>
+<select id='filtroCategoria'>
+<option value=''>Todas</option>
+<option value='action'>Action Figures</option>
+<option value='decoracao'>Decoração</option>
+<option value='luminaria'>Luminárias</option>
+<option value='religioso'>Religiosos</option>
+<option value='organizacao'>Organização</option>
+</select>
+<h3>Preço máximo</h3>
+<select id='filtroPreco'>
+<option value=''>Todos</option>
+<option value='50'>Até R$ 50</option>
+<option value='100'>Até R$ 100</option>
+<option value='200'>Até R$ 200</option>
+</select>
+</aside>
+
+<div class='grid'>
+
+<div class='card' data-categoria='action' data-preco='100'>
+<div class='carousel'>
+<img src='./img/catalogo/naruto.webp' class='active'>
+<img src='./img/catalogo/naruto.webp'>
+<img src='./img/catalogo/naruto.webp'>
+<button class='prev'>❮</button><button class='next'>❯</button>
+</div>
+<div class='card-body'><h3>Naruto</h3><p class='price'>R$100</p></div></div>
+<div class='card' data-categoria='organizacao' data-preco='20.90'>
+<div class='carousel'>
+<img src='./img/catalogo/bobEsponja.webp' class='active'>
+<img src='./img/catalogo/bobEsponja.webp'>
+<img src='./img/catalogo/bobEsponja.webp'>
+<button class='prev'>❮</button><button class='next'>❯</button>
+</div>
+<div class='card-body'><h3>Suporte de Esponja (Bob Esponja)</h3><p class='price'>R$20.90</p></div></div>
+<div class='card' data-categoria='luminaria' data-preco='79.90'>
+<div class='carousel'>
+<img src='./img/catalogo/lua.webp' class='active'>
+<img src='./img/catalogo/lua.webp'>
+<img src='./img/catalogo/lua.webp'>
+<button class='prev'>❮</button><button class='next'>❯</button>
+</div>
+<div class='card-body'><h3>Luminária Lua</h3><p class='price'>R$79.90</p></div></div>
+<div class='card' data-categoria='decoracao' data-preco='40.90'>
+<div class='carousel'>
+<img src='./img/catalogo/namorados.webp' class='active'>
+<img src='./img/catalogo/namorados.webp'>
+<img src='./img/catalogo/namorados.webp'>
+<button class='prev'>❮</button><button class='next'>❯</button>
+</div>
+<div class='card-body'><h3>Quadro para Casal</h3><p class='price'>R$40.90</p></div></div>
+<div class='card' data-categoria='religioso' data-preco='50'>
+<div class='carousel'>
+<img src='./img/catalogo/cruz.webp' class='active'>
+<img src='./img/catalogo/cruz.webp'>
+<img src='./img/catalogo/cruz.webp'>
+<button class='prev'>❮</button><button class='next'>❯</button>
+</div>
+<div class='card-body'><h3>Cruz de Jesus</h3><p class='price'>R$50</p></div></div>
+<div class='card' data-categoria='action' data-preco='99.90'>
+<div class='carousel'>
+<img src='./img/catalogo/cdz.webp' class='active'>
+<img src='./img/catalogo/cdz.webp'>
+<img src='./img/catalogo/cdz.webp'>
+<button class='prev'>❮</button><button class='next'>❯</button>
+</div>
+<div class='card-body'><h3>Shaka de Virgem Funko</h3><p class='price'>R$99.90</p></div></div>
+<div class='card' data-categoria='decoracao' data-preco='70.90'>
+<div class='carousel'>
+<img src='./img/catalogo/spotify.webp' class='active'>
+<img src='./img/catalogo/spotify.webp'>
+<img src='./img/catalogo/spotify.webp'>
+<button class='prev'>❮</button><button class='next'>❯</button>
+</div>
+<div class='card-body'><h3>Quadro Spotify para Casal</h3><p class='price'>R$70.90</p></div></div>
+<div class='card' data-categoria='action' data-preco='80.90'>
+<div class='carousel'>
+<img src='./img/catalogo/sasuke.webp' class='active'>
+<img src='./img/catalogo/sasuke.webp'>
+<img src='./img/catalogo/sasuke.webp'>
+<button class='prev'>❮</button><button class='next'>❯</button>
+</div>
+<div class='card-body'><h3>Sasuke Susanoo</h3><p class='price'>R$80.90</p></div></div>
+<div class='card' data-categoria='organizacao' data-preco='90.90'>
+<div class='carousel'>
+<img src='./img/catalogo/suporteControle.webp' class='active'>
+<img src='./img/catalogo/suporteControle.webp'>
+<img src='./img/catalogo/suporteControle.webp'>
+<button class='prev'>❮</button><button class='next'>❯</button>
+</div>
+<div class='card-body'><h3>Suporte Controle (Sharingan)</h3><p class='price'>R$90.90</p></div></div>
+<div class='card' data-categoria='decoracao' data-preco='26.90'>
+<div class='carousel'>
+<img src='./img/catalogo/namoradosSombra.webp' class='active'>
+<img src='./img/catalogo/namoradosSombra.webp'>
+<img src='./img/catalogo/namoradosSombra.webp'>
+<button class='prev'>❮</button><button class='next'>❯</button>
+</div>
+<div class='card-body'><h3>Estátua Dia dos Namorados</h3><p class='price'>R$26.90</p></div></div>
+<div class='card' data-categoria='religioso' data-preco='20'>
+<div class='carousel'>
+<img src='./img/catalogo/batizado.webp' class='active'>
+<img src='./img/catalogo/batizado.webp'>
+<img src='./img/catalogo/batizado.webp'>
+<button class='prev'>❮</button><button class='next'>❯</button>
+</div>
+<div class='card-body'><h3>Lembrancinha para Batizado</h3><p class='price'>R$20</p></div></div>
+<div class='card' data-categoria='organizacao' data-preco='20.90'>
+<div class='carousel'>
+<img src='./img/catalogo/organizador.webp' class='active'>
+<img src='./img/catalogo/organizador.webp'>
+<img src='./img/catalogo/organizador.webp'>
+<button class='prev'>❮</button><button class='next'>❯</button>
+</div>
+<div class='card-body'><h3>Organizador</h3><p class='price'>R$20.90</p></div></div>
+</div></div>
+
+<section class="personalizado">
+<h2>Não achou o produto que queria?</h2>
+<p>Fazemos projetos totalmente personalizados a partir da sua ideia, foto ou desenho.</p>
+<a href="orcamento.html" class="btn">Solicitar Orçamento Personalizado</a>
+</section>
+</div>
+<script src='js/main.js'></script></body></html>
