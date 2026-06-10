@@ -1,10 +1,10 @@
-# Alpha Print Pro
+# Alpha Print 3D
 
 Site institucional desenvolvido para divulgar serviços de impressão 3D da Alpha Print 3D.
 
 ## Sobre o Projeto
 
-A Alpha Print Pro é uma plataforma web responsiva voltada para apresentação de serviços e produtos de impressão 3D, permitindo que clientes conheçam o catálogo, solicitem orçamentos e entrem em contato de forma simples.
+A Alpha Print 3D é uma plataforma web responsiva voltada para apresentação de serviços e produtos de impressão 3D, permitindo que clientes conheçam o catálogo, solicitem orçamentos e entrem em contato de forma simples.
 
 ## Funcionalidades
 
