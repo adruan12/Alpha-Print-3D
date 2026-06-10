@@ -1,6 +1,6 @@
 # Alpha Print Pro
 
-Site institucional desenvolvido para divulgar serviços de impressão 3D da Alpha Print Pro.
+Site institucional desenvolvido para divulgar serviços de impressão 3D da Alpha Print 3D.
 
 ## Sobre o Projeto
 
